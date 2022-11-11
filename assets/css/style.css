@@ -21,6 +21,8 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 500%;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
 
@@ -80,5 +82,13 @@ h1, h2 {
 }
 
 
+/* Art examples */
 
-/* message here */
+#examples {
+    text-align: center;
+}
+
+.image-box {
+    width: 33%;
+    display: inline-block;
+}
