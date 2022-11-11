@@ -25,6 +25,7 @@ h1, h2 {
 
 
 /* Navigation links */
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -54,3 +55,14 @@ h1, h2 {
 }
 
 
+/* Hero image */
+
+#hero-image {
+    height: 300px;
+    width: 100%;
+    background: url(../images/pexels-pixabay-356147.jpg) no-repeat;
+}
+
+
+
+/* message here */
