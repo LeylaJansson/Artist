@@ -20,10 +20,10 @@
         <nav id="menu">
             <ul>
                 <li>
-                    <a href=commission.html>Commission</a>
+                    <a href=commission.html class="active">Commission</a>
                 </li>
                 <li>
-                    <a href=arts.html class="active">Art for sale</a>
+                    <a href=arts.html>Art for sale</a>
                 </li>
                 <li>
                     <a href=index.html>Home</a>
@@ -41,35 +41,25 @@
         </div>
     </section>
     <section>
-        <h2 id="examples">Art ready for sale</h2>
-        <span class="image-box">
-            <img src="assets/images/pexels-anna-tarazevich-6486626.jpg"
-                alt="Paint (blue, white and some orange) smeared on a canvas">
-            <h3>Titled "Sea at Sunset", price 100 Euro</h3>
-        </span>
-        <span class="image-box">
-            <img src="assets/images/pexels-min-an-962312.jpg" alt="Photo of a tree">
-            <h3>Titled "Strong", price 50 Euro</h3>
-        </span>
-        <span class="image-box">
-            <img src="assets/images/pexels-chait-goli-1918290.jpg" alt="Painted dia de la muerte skull">
-            <h3>Titled "Beautiful Beyond", price 50 Euro</h3>
-        </span>
-        <span class="image-box">
-            <img src="assets/images/pexels-motional-studio-1081685.jpg"
-                alt="Picture of woman with glitter on part of her neck and face">
-            <h3>Titled "Her, my galaxy", price 50 Euro</h3>
-        </span>
-        <span class="image-box">
-            <img src="assets/images/pexels-pixabay-459301.jpg" alt="Water droplets on a purple leaf">
-            <h3>Titled "Tears of a Tree", price 50 Euro</h3>
-        </span>
-        <span class="image-box">
-            <img src="assets/images/pexels-elti-meshau-333850.jpg" alt="Male silhouette backlit by red light in fog">
-            <h3>Titled Fright, price 50 Euro</h3>
-        </span>
+        <form class=com-form method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Commission Form</h2>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first_name" class="text-input" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" class="text-input" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
+
+            <label for="price">Price Range</label>
+            <input type="text" id="price" name="price" class="text-input" required>
+            <label for="com-dets">Commission Details</label>
+            <textarea id="com-dets" name="commission details" rows="4" cols="50"></textarea>
+
+            <input type="submit" value="Commission" class="submit-button">
+
+        </form>
     </section>
-    
+
     <footer>
         <ul class="social-networks">
             <li>
