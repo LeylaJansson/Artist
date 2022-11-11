@@ -23,6 +23,7 @@ h1, h2 {
     font-size: 500%;
     margin-left: 50px;
     margin-top: 10px;
+    color:blueviolet
 }
 
 
@@ -91,4 +92,26 @@ h1, h2 {
 .image-box {
     width: 33%;
     display: inline-block;
+}
+
+
+/* Footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: white;
 }
