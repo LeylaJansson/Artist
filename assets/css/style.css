@@ -20,7 +20,7 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 500%;
 }
 
 
@@ -61,6 +61,22 @@ h1, h2 {
     height: 300px;
     width: 100%;
     background: url(../images/pexels-pixabay-356147.jpg) no-repeat;
+}
+
+#cover-text, #cover-text h2 {
+    color: white;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 100px;
+
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: rgba(140, 106, 173, 0.7);
 }
 
 
