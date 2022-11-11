@@ -11,7 +11,8 @@ body {
     font-weight: 300;
     color: aliceblue;
     background-color: black;
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 h1,
@@ -171,6 +172,12 @@ footer {
 
 /* Media queries */
 
+@media screen and (max-width: 1930px) {
+    .block {
+        padding-left: 4%;
+    }
+}
+
 @media screen and (max-width: 830px) {
     .block {
         display: grid;
@@ -178,9 +185,35 @@ footer {
         justify-content: center;
     }
 
-    #sellables {
-        display: grid;
-        grid-template-columns: 30 30 30;
-        justify-content: center;
+    #logo {
+        font-size: 400%;
+    }
+
+    #hero-image {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #logo {
+        font-size: 400%;
+    }
+
+    #hero-image {
+        height: 200px;
+        width: 50%;
+    }
+
+    #menu {
+        font-size: 100%;
+    }
+
+    .images {
+        width: 250%;
+    }
+
+    footer {
+        height: 50px;
     }
 }
